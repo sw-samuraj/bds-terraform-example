@@ -49,4 +49,6 @@ Once the Terraform `apply` command successfully finishes, you can see
 a newly created BDS instance in the
 [UI Console](//console.us-ashburn-1.oraclecloud.com/bigdata/clusters/):
 
-TBD pictures
+![BDS instance](/images/BDS-instance.png)
+
+![BDS instance nodes](/images/BDS-instance-nodes.png)
