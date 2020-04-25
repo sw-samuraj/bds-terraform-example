@@ -2,7 +2,7 @@
 
 An example of creating of the OCI _Big Data Service_ resource.
 It's a supporting repository accompanying the article
-[Terraforming of OCI Big Data Service]().
+[Terraforming of OCI Big Data Service](//medium.com/@sw_samuraj/terraforming-of-oci-big-data-service-1e293328499).
 
 ## How to
 
@@ -46,6 +46,7 @@ terraform apply -auto-approve
 ## Result
 
 Once the Terraform `apply` command successfully finishes, you can see
-a newly created BDS instance in the [UI Console]():
+a newly created BDS instance in the
+[UI Console](//console.us-ashburn-1.oraclecloud.com/bigdata/clusters/):
 
 TBD pictures
