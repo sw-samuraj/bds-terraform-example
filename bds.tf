@@ -3,7 +3,7 @@ resource "oci_bds_bds_instance" "tf_bds_instance" {
   compartment_id = "ocid1.compartment.oc1..aaaaaaaa7gna34n3semxsi7ejf72jqpjnip6mqw2764hegwp7y2sl5rctdqa"
   display_name = "tf-bds-example"
   # Password has to be Base64 encoded, e.g.: echo Init01$$ | base64
-  cluster_admin_password = "SW5pdDAxMTgwOTEK"
+  cluster_admin_password = "SW5pdDAxQA=="
   is_high_availability = false
   is_secure = false
   cluster_version = "CDH6"
