@@ -1,5 +1,5 @@
 provider "oci" {
-  version = "~> 3.71"
+  version = "~> 3.88"
   tenancy_ocid = var.tenancy_ocid
   user_ocid = var.user_ocid
   fingerprint = var.fingerprint
@@ -9,7 +9,7 @@ provider "oci" {
 
 data "oci_bds_bds_instance" "tf_bds_instance" {
     #Required
-    bds_instance_id = "ocid1.bigdataservice.oc1.iad.amaaaaaapvq3y5aakpekytdob7kzldwybfkw4kdksgoycpuyrqw5uwbszsgq"
+    bds_instance_id = "ocid1.bigdataservice.oc1.iad.amaaaaaapvq3y5aa6py23yw6bjek7isvysriu42u4yghwvs75jbxs3baxlja"
 }
 
 output "tf_bds_instance" {
